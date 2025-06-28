@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    options {
+
+    }
+    stages {
+        stage("checkout") {
+            steps {
+                sh 'hello devops!'
+            }
+
+        }
+    }
+}
